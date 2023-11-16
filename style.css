@@ -11,9 +11,13 @@ h1{
   color: #EDF6F9;
 }
 .radius-img{
+  background-color: #FFDDD2;
   border-radius:40%;
   height: 200px;
   box-shadow: 5px 5px #006D77;
+}
+.radius-img:hover{
+  opacity: 0.4;
 }
 .card-profile{
   background-color: #83C5BE;
@@ -23,6 +27,12 @@ h1{
   padding: auto;
   font-size: 15px;
   box-shadow: 5px 5px #006D77;
+}
+.card-profile p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 3vh;
 }
 .card-profile a{
   color:FFDDD2;
@@ -49,15 +59,16 @@ ul{
   padding: 0;
 }
 ul li{
-  display:inline;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-right: 10px;
 }
 .card-sns h2{
   font-size: 20px;
   color: EDF6F9;
 }
 .logo-profile:hover{
-  transform: scale(150%);
+  transform: scale(120%);
 }
 .eggs a{
   color: black;
