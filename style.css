@@ -7,6 +7,12 @@ body{
   text-align: center;
   background-color: #FFDDD2;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
 h1{
   color: #EDF6F9;
 }
@@ -21,7 +27,7 @@ h1{
   background-color: #83C5BE;
   border-radius: 30px;
   width: 500px;
-  margin: 15vh auto auto;
+  margin: 50px auto;
   padding: auto;
   font-size: 15px;
   box-shadow: 5px 5px #006D77;
@@ -44,19 +50,19 @@ a:hover{
   background-color: #83C5BE;
   border-radius: 30px;
   width: 300;
-  margin: auto;
+  margin: 16px auto;
   box-shadow: 5px 5px #006D77;
 }
 .logo-profile{
   height: 40px;
-  margin-right: 2vh;
-  margin-bottom: 2vh;
+
 }
 ul{
   display: flex;
   list-style-type: none;
   padding: 0;
   justify-content: center;
+  gap: 10px;
 }
 ul li{
   display: inline-flex;
@@ -67,6 +73,9 @@ ul li{
 }
 .logo-profile:hover{
   transform: scale(110%);
+}
+.copy{
+  margin: -36px;
 }
 .eggs a{
   color: black;
