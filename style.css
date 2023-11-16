@@ -53,20 +53,20 @@ a:hover{
   margin-bottom: 2vh;
 }
 ul{
+  display: flex;
   list-style-type: none;
   padding: 0;
+  justify-content: center;
 }
 ul li{
   display: inline-flex;
-  justify-content: space-around;
-  margin-right: 10px;
 }
 .card-sns h2{
   font-size: 20px;
   color: EDF6F9;
 }
 .logo-profile:hover{
-  transform: scale(120%);
+  transform: scale(110%);
 }
 .eggs a{
   color: black;
