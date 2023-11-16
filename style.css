@@ -16,9 +16,7 @@ h1{
   height: 200px;
   box-shadow: 5px 5px #006D77;
 }
-.radius-img:hover{
-  opacity: 0.4;
-}
+
 .card-profile{
   background-color: #83C5BE;
   border-radius: 30px;
